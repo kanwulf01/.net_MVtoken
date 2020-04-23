@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="mvcApiEntities-Web.config Connection String" description="mvcApiEntities Cadena de conexión que usa la aplicación en web.config para obtener acceso a la base de datos." defaultValue="metadata=res://*/Models.Model1.csdl|res://*/Models.Model1.ssdl|res://*/Models.Model1.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=WARECOREI5\SQLEXPRESS;initial catalog=mvcApi;user id=sa;password=advits;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Lenovo\\source\\repos\\MVCtoken\\MVCtoken\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='mvcApiEntities']/@connectionString" />
+  </parameter>
+  <parameter name="mvcApiEntities1-Web.config Connection String" description="mvcApiEntities1 Cadena de conexión que usa la aplicación en web.config para obtener acceso a la base de datos." defaultValue="metadata=res://*/Models.DB.csdl|res://*/Models.DB.ssdl|res://*/Models.DB.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=WARECOREI5\SQLEXPRESS;initial catalog=mvcApi;user id=sa;password=advits;multipleactiveresultsets=True;application name=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Lenovo\\source\\repos\\MVCtoken\\MVCtoken\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='mvcApiEntities1']/@connectionString" />
+  </parameter>
+</parameters>

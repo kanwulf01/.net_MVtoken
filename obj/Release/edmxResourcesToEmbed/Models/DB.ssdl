@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="mvcApiModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="animal">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="varchar" MaxLength="50" />
+    <Property Name="idState" Type="int" />
+    <Property Name="patas" Type="int" />
+  </EntityType>
+  <EntityType Name="Table1">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="email" Type="varchar" MaxLength="50" />
+    <Property Name="passwordd" Type="varchar" MaxLength="50" />
+    <Property Name="idEstatus" Type="int" />
+    <Property Name="token" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityContainer Name="mvcApiModelStoreContainer">
+    <EntitySet Name="animal" EntityType="Self.animal" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Table1" EntityType="Self.Table1" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
